@@ -39,31 +39,31 @@ information about where data goes and what to do in this project.
 Fulfill the following requirements in order to successfully complete this
 assignment.
 
-* Fill in the template for the Results component (`src/components/Results.vue`) with dynamic data
-* Populate the `curent-page` value
-* Populate the `total-pages` value
-* Populate the `total-results` value
-* Create a loop that processes each of the items in the `results` Array
-* Display the following information to the user in the appropriate locations of the template:
+- [X] Fill in the template for the Results component (`src/components/Results.vue`) with dynamic data
+- [X] Populate the `curent-page` value
+- [X] Populate the `total-pages` value
+- [X] Populate the `total-results` value
+- [X] Create a loop that processes each of the items in the `results` Array
+- [X] Display the following information to the user in the appropriate locations of the template:
     * Title
     * Overview
     * Poster image (note that the base URL for poster images is: `https://image.tmdb.org/t/p/w150_and_h225_bestv2/`)
     * Release date (no need to format the date in a different way)
-* Use a conditional to determine whether this is a "Critic's Choice", "Well-Liked", or "Stinker"
+- [X] Use a conditional to determine whether this is a "Critic's Choice", "Well-Liked", or "Stinker"
     * "Critics Choice" are movies where the `vote_average` is over 8
     * "Well Liked" are movies where the `vote_average` is between 7 and 8
-    * "Stinkers" are movies where the `vote_average` is lower than 5
+    * "Stinkers" are movies where the `vote_average` is lower than 7
     * Display the `vote_average` and `vote_count` in the proper locations
-* Use another loop to display a genre list with each movie
-* Link the title back to the proper movie info page on TheMovieDatabase.org using the base URL (`https://www.themoviedb.org/movie/`) and the movie ID
+- [ ] Use another loop to display a genre list with each movie
+- [ ] Link the title back to the proper movie info page on TheMovieDatabase.org using the base URL (`https://www.themoviedb.org/movie/`) and the movie ID
 
 ## Stretch Goals
-* Figure out how to apply the "backdrop" image in some appealing way as a background for each movie
-* [Look up how to write a filter](https://vuejs.org/v2/guide/filters.html) to format the Release Date value and make it look nicer
-* Create a better simulation of pagination than the existing metadata at the top of the page
-* Alter the base URL of the poster images to pull larger or smaller images (be sure to keep them in proper scale)
-* Enhance some of the styles to give this project a nicer visual appeal
-* Modify the template to make the ratings information be displayed as a percentage bar (or as a circle diagram, or something else) using a computed value
+- [ ] Figure out how to apply the "backdrop" image in some appealing way as a background for each movie
+- [ ] [Look up how to write a filter](https://vuejs.org/v2/guide/filters.html) to format the Release Date value and make it look nicer
+- [ ] Create a better simulation of pagination than the existing metadata at the top of the page
+- [ ] Alter the base URL of the poster images to pull larger or smaller images (be sure to keep them in proper scale)
+- [ ] Enhance some of the styles to give this project a nicer visual appeal
+- [ ] Modify the template to make the ratings information be displayed as a percentage bar (or as a circle diagram, or something else) using a computed value
 
 ## Build Setup
 This project was created with the Vue-CLI. In order to get it running, use the following commands.
