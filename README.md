@@ -54,8 +54,8 @@ assignment.
     * "Well Liked" are movies where the `vote_average` is between 7 and 8
     * "Stinkers" are movies where the `vote_average` is lower than 7
     * Display the `vote_average` and `vote_count` in the proper locations
-- [ ] Use another loop to display a genre list with each movie
-- [ ] Link the title back to the proper movie info page on TheMovieDatabase.org using the base URL (`https://www.themoviedb.org/movie/`) and the movie ID
+- [X] Use another loop to display a genre list with each movie
+- [X ] Link the title back to the proper movie info page on TheMovieDatabase.org using the base URL (`https://www.themoviedb.org/movie/`) and the movie ID
 
 ## Stretch Goals
 - [ ] Figure out how to apply the "backdrop" image in some appealing way as a background for each movie
